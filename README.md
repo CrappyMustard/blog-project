@@ -6,7 +6,7 @@ BlogProject is, of course, a customizable blog that incorporates MongoDB and Nex
 - Locally hosted webpage; no need to pay for large servers or domains
 ## How to set up BlogProject
 1. Clone this repo.
-2. Install NVM on your operation system and run `nvm install 24`.
+2. Install NVM on your operating system and run `nvm install 24`.
 3. Install NPM or a similar package manager, then run `npm install mongodb`.
 4. Type `npm run dev`.
 5. Your server is up, and so is your webpage! From here, you can replace the MongoDB URI in .env.local with your own, and edit the page to your liking.
