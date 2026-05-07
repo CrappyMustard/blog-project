@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0067b0;
+  background: linear-gradient(90deg,rgba(0, 103, 176, 1) 0%, rgba(42, 151, 235, 1) 38%, rgba(145, 207, 255, 1) 74%, rgba(209, 237, 255, 1) 100%);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.splashText {
+  text-align: center;
+  font-size: 25;
+  font-family: "font-sans";
+}
+
+.mainBox {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container {
+  border-radius: 15px;
+  background: white;
+  padding: 25px;
+  margin-top: 25px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer{
+  font-size: 12;
+  padding: 20px;
+  text-align: center;
+}
